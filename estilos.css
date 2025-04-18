@@ -1,0 +1,1225 @@
+body{
+    background-image: url(Fondo/background.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    width: 100%;
+    height: 100%;
+}
+/*01 FILA (4 PERSONAJES)*/
+.Personajes01{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*01 CARTA*/
+.Carta01{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta01 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta01 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*02 CARTA*/
+.Carta02{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta02 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta02 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*03 CARTA*/
+.Carta03{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta03 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta03 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*04 CARTA*/
+.Carta04{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta04 img{
+    width: 190px;
+    height: 336px;
+    background-color: white;
+}
+.Carta04 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*02 FILA (4 PERSONAJES)*/
+.Personajes02{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*05 CARTA*/
+.Carta05{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta05 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta05 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*06 CARTA*/
+.Carta06{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta06 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta06 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*07 CARTA*/
+.Carta07{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta07 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta07 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*08 CARTA*/
+.Carta08{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta08 img{
+    width: 180px;
+    height: 336px;
+    background-color: white;
+}
+.Carta08 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*03 FILA (4 PERSONAJES)*/
+.Personajes03{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*09 CARTA*/
+.Carta09{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta09 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta09 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*10 CARTA*/
+.Carta10{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta10 img{
+    width: 220px;
+    height: 336px;
+    background-color: white;
+}
+.Carta10 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*11 CARTA*/
+.Carta11{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta11 img{
+    width: 150px;
+    height: 336px;
+    background-color: white;
+}
+.Carta11 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*12 CARTA*/
+.Carta12{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta12 img{
+    width: 100px;
+    height: 336px;
+    background-color: white;
+}
+.Carta12 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*04 FILA (4 PERSONAJES)*/
+.Personajes04{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*13 CARTA*/
+.Carta13{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta13 img{
+    width: 220px;
+    height: 336px;
+    background-color: white;
+}
+.Carta13 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*14 CARTA*/
+.Carta14{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta14 img{
+    width: 190px;
+    height: 336px;
+    background-color: white;
+}
+.Carta14 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*15 CARTA*/
+.Carta15{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta15 img{
+    width: 100px;
+    height: 336px;
+    background-color: white;
+}
+.Carta15 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*16 CARTA*/
+.Carta16{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta16 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta16 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*05 FILA (4 PERSONAJES)*/
+.Personajes05{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*17 CARTA*/
+.Carta17{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta17 img{
+    width: 220px;
+    height: 336px;
+    background-color: white;
+}
+.Carta17 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*18 CARTA*/
+.Carta18{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta18 img{
+    width: 190px;
+    height: 336px;
+    background-color: white;
+}
+.Carta18 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*19 CARTA*/
+.Carta19{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta19 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta19 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*20 CARTA*/
+.Carta20{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta20 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta20 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*06 FILA (4 PERSONAJES)*/
+.Personajes06{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*21 CARTA*/
+.Carta21{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta21 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta21 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*22 CARTA*/
+.Carta22{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta22 img{
+    width: 180px;
+    height: 336px;
+    background-color: white;
+}
+.Carta22 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*23 CARTA*/
+.Carta23{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta23 img{
+    width: 220px;
+    height: 336px;
+    background-color: white;
+}
+.Carta23 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*24 CARTA*/
+.Carta24{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta24 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta24 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*07 FILA (4 PERSONAJES)*/
+.Personajes07{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*25 CARTA*/
+.Carta25{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta25 img{
+    width: 170px;
+    height: 336px;
+    background-color: white;
+}
+.Carta25 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*26 CARTA*/
+.Carta26{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta26 img{
+    width: 210px;
+    height: 336px;
+    background-color: white;
+}
+.Carta26 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*27 CARTA*/
+.Carta27{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta27 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta27 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*28 CARTA*/
+.Carta28{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta28 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta28 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*08 FILA (4 PERSONAJES)*/
+.Personajes08{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*29 CARTA*/
+.Carta29{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta29 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta29 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*30 CARTA*/
+.Carta30{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta30 img{
+    width: 150px;
+    height: 336px;
+    background-color: white;
+}
+.Carta30 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*31 CARTA*/
+.Carta31{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta31 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta31 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*32 CARTA*/
+.Carta32{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta32 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta32 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*09 FILA (4 PERSONAJES)*/
+.Personajes09{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*33 CARTA*/
+.Carta33{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta33 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta33 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*34 CARTA*/
+.Carta34{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta34 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta34 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*35 CARTA*/
+.Carta35{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta35 img{
+    width: 130px;
+    height: 336px;
+    background-color: white;
+}
+.Carta35 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*36 CARTA*/
+.Carta36{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta36 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta36 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*10 FILA (4 PERSONAJES)*/
+.Personajes10{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*37 CARTA*/
+.Carta37{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta37 img{
+    width: 230px;
+    height: 336px;
+    background-color: white;
+}
+.Carta37 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*38 CARTA*/
+.Carta38{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta38 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta38 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*39 CARTA*/
+.Carta39{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta39 img{
+    width: 220px;
+    height: 336px;
+    background-color: white;
+}
+.Carta39 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*40 CARTA*/
+.Carta40{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta40 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta40 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*11 FILA (4 PERSONAJES)*/
+.Personajes11{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*41 CARTA*/
+.Carta41{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta41 img{
+    width: 150px;
+    height: 336px;
+    background-color: white;
+}
+.Carta41 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*42 CARTA*/
+.Carta42{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta42 img{
+    width: 170px;
+    height: 336px;
+    background-color: white;
+}
+.Carta42 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*43 CARTA*/
+.Carta43{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta43 img{
+    width: 150px;
+    height: 336px;
+    background-color: white;
+}
+.Carta43 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*44 CARTA*/
+.Carta44{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta44 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta44 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*12 FILA (4 PERSONAJES)*/
+.Personajes12{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*45 CARTA*/
+.Carta45{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta45 img{
+    width: 240px;
+    height: 336px;
+    background-color: white;
+}
+.Carta45 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*46 CARTA*/
+.Carta46{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta46 img{
+    width: 220px;
+    height: 336px;
+    background-color: white;
+}
+.Carta46 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*47 CARTA*/
+.Carta47{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta47 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta47 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*48 CARTA*/
+.Carta48{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta48 img{
+    width: 160px;
+    height: 336px;
+    background-color: white;
+}
+.Carta48 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*13 FILA (4 PERSONAJES)*/
+.Personajes13{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*49 CARTA*/
+.Carta49{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta49 img{
+    width: 160px;
+    height: 336px;
+    background-color: white;
+}
+.Carta49 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*50 CARTA*/
+.Carta50{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta50 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta50 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*51 CARTA*/
+.Carta51{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta51 img{
+    width: 150px;
+    height: 336px;
+    background-color: white;
+}
+.Carta51 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*52 CARTA*/
+.Carta52{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta52 img{
+    width: 140px;
+    height: 336px;
+    background-color: white;
+}
+.Carta52 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*14 FILA (4 PERSONAJES)*/
+.Personajes14{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*53 CARTA*/
+.Carta53{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta53 img{
+    width: 120px;
+    height: 336px;
+    background-color: white;
+}
+.Carta53 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*54 CARTA*/
+.Carta54{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta54 img{
+    width: 160px;
+    height: 336px;
+    background-color: white;
+}
+.Carta54 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*55 CARTA*/
+.Carta55{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta55 img{
+    width: 170px;
+    height: 336px;
+    background-color: white;
+}
+.Carta55 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}
+/*56 CARTA*/
+.Carta56{
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000; 
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+.Carta56 img{
+    width: 200px;
+    height: 336px;
+    background-color: white;
+}
+.Carta56 h3{
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+}

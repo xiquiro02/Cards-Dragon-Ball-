@@ -1,103 +1,140 @@
-body{
-    background-image: url(Fondo/background.jpg);
-    background-size: cover;
-    background-attachment: fixed ;
-    width: 100%;
-    height: 100%;
+body {
+    background-image: url(Fondo/background.jpg); /* Aplica una imagen de fondo desde la carpeta 'Fondo' */
+    background-size: cover;                      /* La imagen cubre todo el fondo, ajustándose al tamaño */
+    background-attachment: fixed;                /* La imagen permanece fija al hacer scroll */
+    width: 98%;                                  /* El body ocupará el 98% del ancho de la ventana */
+    height: 100%;                                /* El body ocupará el 100% de la altura de la ventana */
 }
+
 /*01 FILA (4 PERSONAJES)*/
-.Personajes01{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    text-align: center;
+.Personajes01 {
+    width: 97vw;                                    /* Anchura: 97% del ancho visible del navegador */
+    height: 70vh;                                   /* Altura: 70% de la altura visible del navegador */
+    margin: 0 auto;                                 /* Centrado horizontal automático */
+    text-align: center;                             /* Centra el contenido dentro del div */
+    background-color: rgba(255, 255, 255, 0.3);   /* Fondo blanco semi-transparente (30% opacidad) */
+    background-position: center;                    /* coloca la imagen de fondo en el centro del contenedor */
+    background-size: contain;                       /* Ajustar el tamaño de la imagen de fondo */
 }
+
 /*01 CARTA*/
-.Carta01{
-    width: 250px;
-    height: 400px;
-    border: 5px solid #000; 
-    border-radius: 12px;
-    background-color: white;
-    text-align: center;
-    display: inline-block;
-    margin: 10px 10px 10px 10px;
+.Carta01 {
+    width: 250px;                                               /* Ancho fijo 250px */
+    height: 400px;                                              /* Alto fijo 400px */
+    border: 5px solid #000;                                   /* Borde negro de 5px */
+    border-radius: 12px;                                        /* Bordes redondeados */
+    background: linear-gradient(white, white, white);    /* Fondo blanco  */
+    text-align: center;                                        /* Centra contenido horizontalmente */
+    display: inline-block;                                     /* Permite que haya varias cartas en línea */
+    margin: 1em;                                               /* Margen alrededor de la carta */
+    padding: 1em;                                              /* Espacio interno */
 }
-.Carta01 img{
-    width: 240px;
-    height: 336px;
-    background-color: white;
+.Carta01 img {
+    max-width: 100%;                             /* La imagen no supera el ancho del contenedor */
+    height: auto;                                /* Altura se ajustará automáticamente según el contenido */
+    object-fit: contain;                         /* Ajusta la imagen dentro del contenedor sin recortarla */
+    background-color: rgb(255, 255, 255);      /* Fondo blanco detrás de la imagen */
 }
-.Carta01 h3{
-    font-size: 18px;
-    font-family: 'Bangers', cursive;
+.Carta01 h3 {
+    font-size: 1.125rem;                         /* Tamaño de fuente (18px aprox.) */
+    font-style: italic;                          /* Texto en cursiva */
+    font-weight: bold;                           /* Negrita */
+    font-family: 'Bangers', cursive;             /* Fuente decorativa tipo cómic */
+    text-transform: uppercase;                   /* Texto en mayúsculas */
+    letter-spacing: 1px;                         /* Espaciado entre letras */
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);     /* Sombra negra desenfocada (efecto relieve) */
 }
+
 /*02 CARTA*/
 .Carta02{
-    width: 250px;
-    height: 400px;
-    border: 5px solid #000; 
-    border-radius: 12px;
-    background-color: white;
-    text-align: center;
-    display: inline-block;
-    margin: 10px 10px 10px 10px;
+    width: 250px;                                                       /* Ancho fijo 250px */
+    height: 400px;                                                      /* Alto fijo 400px */
+    border: 5px solid #000;                                           /* Borde negro de 5px */
+    border-radius: 12px;                                                /* Bordes redondeados */
+    background: radial-gradient(circle at center, white, white);   /* Fondo radial blanco (efecto casi igual que fondo normal) */
+    text-align: center;                                        /* Centra contenido horizontalmente */
+    display: inline-block;                                     /* Permite que haya varias cartas en línea */
+    margin: 1em;                                               /* Margen alrededor de la carta */
+    padding: 1em;                                              /* Espacio interno */
 }
 .Carta02 img{
-    width: 240px;
-    height: 336px;
-    background-color: white;
+    max-width: 100%;                             /* La imagen no supera el ancho del contenedor */
+    height: auto;                                /* Altura se ajustará automáticamente según el contenido */
+    object-fit: contain;                         /* Ajusta la imagen dentro del contenedor sin recortarla */
+    background-color: rgb(255, 255, 255);      /* Fondo blanco detrás de la imagen */
 }
 .Carta02 h3{
-    font-size: 18px;
-    font-family: 'Bangers', cursive;
+    font-size: 18px;                             /* Tamaño de fuente fijo 18px */
+    font-style: italic;                          /* Texto en cursiva */
+    font-weight: bold;                           /* Negrita */
+    font-family: 'Bangers', cursive;             /* Fuente decorativa tipo cómic */
+    text-transform: uppercase;                   /* Texto en mayúsculas */
+    letter-spacing: 1px;                         /* Espaciado entre letras */
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);     /* Sombra negra desenfocada (efecto relieve) */
 }
 /*03 CARTA*/
 .Carta03{
-    width: 250px;
-    height: 400px;
-    border: 5px solid #000; 
-    border-radius: 12px;
-    background-color: white;
-    text-align: center;
-    display: inline-block;
-    margin: 10px 10px 10px 10px;
+    width: 250px;                                                       /* Ancho fijo 250px */
+    height: 400px;                                                      /* Alto fijo 400px */
+    border: 5px solid #000;                                           /* Borde negro de 5px */
+    border-radius: 12px;                                                /* Bordes redondeados */
+    background-color: rgb(255, 255, 255);                    /* Fondo blanco con formato RGB */
+    text-align: center;                                        /* Centra contenido horizontalmente */
+    display: inline-block;                                     /* Permite que haya varias cartas en línea */
+    margin: 1em;                                               /* Margen alrededor de la carta */
+    padding: 1em;                                              /* Espacio interno */
 }
 .Carta03 img{
-    width: 240px;
-    height: 336px;
-    background-color: white;
+    max-width: 100%;                             /* La imagen no supera el ancho del contenedor */
+    height: auto;                                /* Altura se ajustará automáticamente según el contenido */
+    object-fit: contain;                         /* Ajusta la imagen dentro del contenedor sin recortarla */
+    background-color: rgb(255, 255, 255);      /* Fondo blanco detrás de la imagen */
 }
 .Carta03 h3{
-    font-size: 18px;
-    font-family: 'Bangers', cursive;
+    font-size: 18px;                             /* Tamaño de fuente fijo 18px */
+    font-style: italic;                          /* Texto en cursiva */
+    font-weight: bold;                           /* Negrita */
+    font-family: 'Bangers', cursive;             /* Fuente decorativa tipo cómic */
+    text-transform: uppercase;                   /* Texto en mayúsculas */
+    letter-spacing: 1px;                         /* Espaciado entre letras */
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);     /* Sombra negra desenfocada (efecto relieve) */
 }
 /*04 CARTA*/
 .Carta04{
-    width: 250px;
-    height: 400px;
-    border: 5px solid #000; 
-    border-radius: 12px;
-    background-color: white;
-    text-align: center;
-    display: inline-block;
-    margin: 10px 10px 10px 10px;
+    width: 250px;                                                       /* Ancho fijo 250px */
+    height: 400px;                                                      /* Alto fijo 400px */
+    border: 5px solid #000;                                           /* Borde negro de 5px */
+    border-radius: 12px;                                                /* Bordes redondeados */
+    background-color: rgb(255, 255, 255);                    /* Fondo blanco con formato RGB */
+    text-align: center;                                        /* Centra contenido horizontalmente */
+    display: inline-block;                                     /* Permite que haya varias cartas en línea */
+    margin: 1em;                                               /* Margen alrededor de la carta */
+    padding: 1em;                                              /* Espacio interno */
 }
 .Carta04 img{
-    width: 190px;
-    height: 336px;
-    background-color: white;
+    max-width: 91%;                              /* La imagen no supera el ancho del contenedor */
+    height: auto;                                /* Altura se ajustará automáticamente según el contenido */
+    object-fit: contain;                         /* Ajusta la imagen dentro del contenedor sin recortarla */
+    background-color: rgb(255, 255, 255);      /* Fondo blanco detrás de la imagen */
 }
 .Carta04 h3{
-    font-size: 18px;
-    font-family: 'Bangers', cursive;
+    font-size: 18px;                             /* Tamaño de fuente fijo 18px */
+    font-style: italic;                          /* Texto en cursiva */
+    font-weight: bold;                           /* Negrita */
+    font-family: 'Bangers', cursive;             /* Fuente decorativa tipo cómic */
+    text-transform: uppercase;                   /* Texto en mayúsculas */
+    letter-spacing: 1px;                         /* Espaciado entre letras */
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);     /* Sombra negra desenfocada (efecto relieve) */
 }
 /*02 FILA (4 PERSONAJES)*/
 .Personajes02{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*05 CARTA*/
 .Carta05{
@@ -105,19 +142,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta05 img{
-    width: 240px;
-    height: 336px;
-    background-color: white;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta05 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*06 CARTA*/
 .Carta06{
@@ -125,19 +169,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta06 img{
-    width: 200px;
-    height: 336px;
-    background-color: white;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta06 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*07 CARTA*/
 .Carta07{
@@ -145,19 +196,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta07 img{
-    width: 240px;
-    height: 336px;
-    background-color: white;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta07 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*08 CARTA*/
 .Carta08{
@@ -165,26 +223,36 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta08 img{
-    width: 180px;
-    height: 336px;
-    background-color: white;
+    max-width: 76%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta08 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*03 FILA (4 PERSONAJES)*/
 .Personajes03{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*09 CARTA*/
 .Carta09{
@@ -195,16 +263,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta09 img{
-    width: 200px;
-    height: 336px;
+    max-width: 92%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta09 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*10 CARTA*/
 .Carta10{
@@ -215,16 +290,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta10 img{
-    width: 220px;
-    height: 336px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta10 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*11 CARTA*/
 .Carta11{
@@ -235,16 +317,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta11 img{
-    width: 150px;
-    height: 336px;
+    max-width: 64%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta11 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*12 CARTA*/
 .Carta12{
@@ -255,23 +344,33 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta12 img{
-    width: 100px;
-    height: 336px;
+    max-width: 42%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta12 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*04 FILA (4 PERSONAJES)*/
 .Personajes04{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*13 CARTA*/
 .Carta13{
@@ -279,19 +378,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta13 img{
-    width: 220px;
-    height: 336px;
-    background-color: white;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta13 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*14 CARTA*/
 .Carta14{
@@ -299,19 +405,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta14 img{
-    width: 190px;
-    height: 336px;
-    background-color: white;
+    max-width: 61%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta14 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*15 CARTA*/
 .Carta15{
@@ -319,19 +432,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta15 img{
-    width: 100px;
-    height: 336px;
-    background-color: white;
+    max-width: 34%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta15 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*16 CARTA*/
 .Carta16{
@@ -339,26 +459,36 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta16 img{
-    width: 200px;
-    height: 336px;
-    background-color: white;
+    max-width: 83%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta16 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*05 FILA (4 PERSONAJES)*/
 .Personajes05{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*17 CARTA*/
 .Carta17{
@@ -369,36 +499,50 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta17 img{
-    width: 220px;
-    height: 336px;
+    max-width: 81%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta17 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*18 CARTA*/
 .Carta18{
-    width: 250px;
+    width: 240px;
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta18 img{
-    width: 190px;
-    height: 336px;
+    max-width: 100%;
+    height:336px;
+    object-fit: contain;
     background-color: white;
 }
 .Carta18 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*19 CARTA*/
 .Carta19{
@@ -409,16 +553,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta19 img{
-    width: 200px;
-    height: 336px;
+    max-width: 63%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta19 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*20 CARTA*/
 .Carta20{
@@ -429,23 +580,33 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta20 img{
-    width: 240px;
-    height: 336px;
+    max-width: 101%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta20 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*06 FILA (4 PERSONAJES)*/
 .Personajes06{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*21 CARTA*/
 .Carta21{
@@ -453,19 +614,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta21 img{
-    width: 200px;
-    height: 336px;
-    background-color: white;
+    max-width: 80%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta21 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*22 CARTA*/
 .Carta22{
@@ -473,39 +641,53 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta22 img{
-    width: 180px;
-    height: 336px;
-    background-color: white;
+    max-width: 94%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta22 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*23 CARTA*/
 .Carta23{
-    width: 250px;
+    width: 240px;
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta23 img{
-    width: 220px;
+    width: 240px;
     height: 336px;
-    background-color: white;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta23 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*24 CARTA*/
 .Carta24{
@@ -513,26 +695,36 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta24 img{
-    width: 200px;
-    height: 336px;
-    background-color: white;
+    max-width: 106%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta24 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*07 FILA (4 PERSONAJES)*/
 .Personajes07{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*25 CARTA*/
 .Carta25{
@@ -543,16 +735,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta25 img{
-    width: 170px;
-    height: 336px;
+    max-width: 60%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta25 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*26 CARTA*/
 .Carta26{
@@ -563,16 +762,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta26 img{
-    width: 210px;
-    height: 336px;
+    max-width: 102%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta26 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*27 CARTA*/
 .Carta27{
@@ -583,16 +789,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta27 img{
-    width: 240px;
-    height: 336px;
+    max-width: 102%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta27 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*28 CARTA*/
 .Carta28{
@@ -603,23 +816,33 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta28 img{
-    width: 200px;
-    height: 336px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta28 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*08 FILA (4 PERSONAJES)*/
 .Personajes08{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*29 CARTA*/
 .Carta29{
@@ -627,19 +850,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta29 img{
-    width: 200px;
-    height: 336px;
-    background-color: white;
+    max-width: 70%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta29 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*30 CARTA*/
 .Carta30{
@@ -647,19 +877,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta30 img{
-    width: 150px;
-    height: 336px;
-    background-color: white;
+    max-width: 54%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta30 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*31 CARTA*/
 .Carta31{
@@ -667,19 +904,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta31 img{
-    width: 240px;
-    height: 336px;
-    background-color: white;
+    max-width: 97%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta31 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*32 CARTA*/
 .Carta32{
@@ -687,26 +931,36 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta32 img{
-    width: 240px;
-    height: 336px;
-    background-color: white;
+    max-width: 96%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta32 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*09 FILA (4 PERSONAJES)*/
 .Personajes09{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*33 CARTA*/
 .Carta33{
@@ -717,16 +971,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta33 img{
-    width: 240px;
-    height: 336px;
+    max-width: 106%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta33 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*34 CARTA*/
 .Carta34{
@@ -737,16 +998,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta34 img{
-    width: 200px;
-    height: 336px;
+    max-width: 85%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta34 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*35 CARTA*/
 .Carta35{
@@ -757,16 +1025,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta35 img{
-    width: 130px;
-    height: 336px;
+    max-width: 39%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta35 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*36 CARTA*/
 .Carta36{
@@ -777,23 +1052,33 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta36 img{
-    width: 240px;
-    height: 336px;
+    max-width: 96%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta36 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*10 FILA (4 PERSONAJES)*/
 .Personajes10{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*37 CARTA*/
 .Carta37{
@@ -801,19 +1086,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta37 img{
-    width: 230px;
-    height: 336px;
-    background-color: white;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta37 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*38 CARTA*/
 .Carta38{
@@ -821,19 +1113,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta38 img{
-    width: 240px;
-    height: 336px;
-    background-color: white;
+    max-width: 84%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta38 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*39 CARTA*/
 .Carta39{
@@ -841,19 +1140,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta39 img{
-    width: 220px;
-    height: 336px;
-    background-color: white;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta39 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*40 CARTA*/
 .Carta40{
@@ -861,26 +1167,36 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta40 img{
-    width: 200px;
-    height: 336px;
-    background-color: white;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta40 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*11 FILA (4 PERSONAJES)*/
 .Personajes11{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*41 CARTA*/
 .Carta41{
@@ -891,16 +1207,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta41 img{
-    width: 150px;
-    height: 336px;
+    max-width: 70%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta41 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*42 CARTA*/
 .Carta42{
@@ -911,16 +1234,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta42 img{
-    width: 170px;
-    height: 336px;
+    max-width: 67%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta42 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*43 CARTA*/
 .Carta43{
@@ -931,16 +1261,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta43 img{
-    width: 150px;
-    height: 336px;
+    max-width: 59%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta43 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*44 CARTA*/
 .Carta44{
@@ -951,23 +1288,33 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta44 img{
-    width: 240px;
-    height: 336px;
+    max-width: 80%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta44 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*12 FILA (4 PERSONAJES)*/
 .Personajes12{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*45 CARTA*/
 .Carta45{
@@ -975,19 +1322,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta45 img{
-    width: 240px;
-    height: 336px;
-    background-color: white;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta45 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*46 CARTA*/
 .Carta46{
@@ -995,19 +1349,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta46 img{
-    width: 220px;
-    height: 336px;
-    background-color: white;
+    max-width: 84%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta46 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*47 CARTA*/
 .Carta47{
@@ -1015,19 +1376,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta47 img{
-    width: 200px;
-    height: 336px;
-    background-color: white;
+    max-width: 68%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta47 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*48 CARTA*/
 .Carta48{
@@ -1035,26 +1403,36 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta48 img{
-    width: 160px;
-    height: 336px;
-    background-color: white;
+    max-width: 61%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta48 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*13 FILA (4 PERSONAJES)*/
 .Personajes13{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*49 CARTA*/
 .Carta49{
@@ -1065,16 +1443,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta49 img{
-    width: 160px;
-    height: 336px;
+    max-width: 55%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta49 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*50 CARTA*/
 .Carta50{
@@ -1085,16 +1470,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta50 img{
     width: 200px;
-    height: 336px;
+    height: 329px;
+    object-fit: contain;
     background-color: white;
 }
 .Carta50 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*51 CARTA*/
 .Carta51{
@@ -1105,16 +1497,23 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta51 img{
-    width: 150px;
-    height: 336px;
+    max-width: 62%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta51 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*52 CARTA*/
 .Carta52{
@@ -1125,23 +1524,33 @@ body{
     background-color: white;
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta52 img{
-    width: 140px;
-    height: 336px;
+    max-width: 52%;
+    height: auto;
+    object-fit: contain;
     background-color: white;
 }
 .Carta52 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*14 FILA (4 PERSONAJES)*/
 .Personajes14{
-    width: 100%;
-    height: 100%;
+    width: 97vw;
+    height: 70vh;
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-position: center;
+    background-size: contain;
 }
 /*53 CARTA*/
 .Carta53{
@@ -1149,19 +1558,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta53 img{
-    width: 120px;
-    height: 336px;
-    background-color: white;
+    max-width: 53%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta53 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*54 CARTA*/
 .Carta54{
@@ -1169,19 +1585,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta54 img{
-    width: 160px;
-    height: 336px;
-    background-color: white;
+    max-width: 60%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta54 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*55 CARTA*/
 .Carta55{
@@ -1189,19 +1612,26 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta55 img{
-    width: 170px;
-    height: 336px;
-    background-color: white;
+    max-width: 74%;
+    height: auto;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta55 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
 /*56 CARTA*/
 .Carta56{
@@ -1209,17 +1639,24 @@ body{
     height: 400px;
     border: 5px solid #000; 
     border-radius: 12px;
-    background-color: white;
+    background-color: rgb(255, 216, 201);
     text-align: center;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
+    margin: 1em;
+    padding: 1em;
 }
 .Carta56 img{
-    width: 200px;
-    height: 336px;
-    background-color: white;
+    width: 260px;
+    height: 347px;
+    object-fit: contain;
+    background-color: rgb(255, 216, 201);
 }
 .Carta56 h3{
     font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
     font-family: 'Bangers', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 9px rgb(0, 0, 0);
 }
